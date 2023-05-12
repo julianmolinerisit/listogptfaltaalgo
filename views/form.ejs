@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/styles-form.css">
+    <link rel="stylesheet" href="/css/styles-form-modal.css">
+</head>
+<body>
+    <% include('../partials/navbar') %>
+    <h1>¿Qué quieres ser hoy?</h1>
+    <form id="my-form" method="post" action="/historia">
+        <label for="nombre">Personaje:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="escenario">Escenario:</label>
+        <input type="text" id="escenario" name="escenario"><br><br>
+        <button type="submit" id="submit-btn">Enviar</button>
+    </form>
+    <div id="modal" style="display: none;">
+        <div id="modal-content">
+            <div id="loader"></div>
+            <h2>Cargando...</h2>
+        </div>
+    </div>
+    <script src="/js/form.js"></script>
+</body>
+</html>

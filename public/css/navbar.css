@@ -1,0 +1,23 @@
+nav {
+  background-color: #f4e3f7; /* Cambiar al color de fondo deseado */
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #a16bff; /* Cambiar al color de borde deseado */
+  margin: 5px;
+  padding: 10px;
+}
+
+a {
+  color: #4b0082; /* Cambiar al color de texto deseado */
+  text-decoration: none;
+}
